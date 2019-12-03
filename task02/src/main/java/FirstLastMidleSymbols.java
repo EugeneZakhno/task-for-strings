@@ -1,5 +1,6 @@
 public class FirstLastMidleSymbols {
     public static void main(String[] args) {
+
         //2. Дана строка. Вывести первый, последний и средний (если он есть)) символы
 
         String str = "Hello my name is Zhenia";
