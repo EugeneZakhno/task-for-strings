@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class ShowSymbols {
     public static void main(String[] args) {
+
         //3. Дана  строка.  Вывести  первые  три  символа  и  последний  три  символа,  если
-        //длина  строки  больше  5.  Иначе  вывести  первый  символ  столько  раз,  какова
+        //длина  строки больше  5.  Иначе  вывести  первый  символ  столько  раз,  какова
         //длина строки.
 
         Scanner scanner = new Scanner(System.in);
