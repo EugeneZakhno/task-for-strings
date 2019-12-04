@@ -14,7 +14,7 @@ public class ShowSymbols {
                     "\n Last three symbols: " + str.substring(str.length() - 3, str.length()));
         }
         else
-            for (int i = 0; i < str.length(); i++)
+            for (int i = 0; i < str.length(); i++){
                 System.out.println(str.charAt(0));
             }
         scanner.close();
