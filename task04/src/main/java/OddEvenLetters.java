@@ -4,14 +4,13 @@ public class OddEvenLetters {
         // 4. Сформировать строку из 10 символов.
         // На четных позициях должны находится четные цифры 2 4 6 8, на нечетных позициях - буквы. m l k g
 
-        String str = "skvskvbvdfblo";
+        String str = "skvskvbjhjh";
 
-        for (int i = 0; i < 10; i += 2) {
-            System.out.print(i+"");
-            for (int j = 1; j < str.length(); j += 2) {
+        for (int i = 0; i < 8; i += 2) {
+            for (int j = 1; j < i; j +=3) {
+                System.out.print(i+"");
                 System.out.print(str.charAt(j));
             }
         }
-
     }
 }
