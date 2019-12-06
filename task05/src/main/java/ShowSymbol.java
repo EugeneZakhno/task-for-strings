@@ -6,8 +6,9 @@ public class ShowSymbol {
         String str = "heldlo d myd friend";
 
         for (int i = 0; i < str.length(); i++) {
-            if(str.length()-1 == str.charAt(i))
-            System.out.println(str.indexOf(str.length()-1));
+            if(str.length()-1 == str.charAt(i)) {
+                System.out.println(str.indexOf(str.length() - 1));
+            }
         }
 
 
