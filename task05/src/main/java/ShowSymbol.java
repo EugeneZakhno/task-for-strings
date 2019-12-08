@@ -7,9 +7,8 @@ public class ShowSymbol {
 
         for (int i = 0; i < str.length(); i++) {
                 if(str.charAt(str.length()-1)== str.charAt(i))
-                    System.out.println(str.indexOf(str.charAt(i)));
-                    System.out.print(str.charAt(i));
-
+                  //  System.out.println(str.indexOf(str.charAt(i)));
+                    System.out.print(str.indexOf(i));
             }
         }
     }
