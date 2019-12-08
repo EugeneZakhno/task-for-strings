@@ -3,15 +3,12 @@ public class ShowSymbol {
 
         // 5. Дана строка. Показать номера символов, совпадающих с последним символом строки.
 
-        String str = "heldlo d myd friend";
+        String str = "hdeldlo d myd friend";
 
         for (int i = 0; i < str.length(); i++) {
-
-
-            if(str.indexOf() == str.charAt(i)) {
-                System.out.println(str.indexOf(str.length() - 1));
-                System.out.println(str.length() - 1);
+                if(str.charAt(str.length()-1)== str.charAt(i))
+                    System.out.println(str.indexOf(str.charAt(i)));
             }
         }
     }
-}
+
